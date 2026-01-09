@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+
+header {border: 3px black solid;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: baseline;
+width: 100% ;
+padding: 2.5rem;
+background-color:#120106;
+color: #fefcfc;
+}
+
+nav{display:flex;
+flex-wrap: wrap;
+align-items: center;
+gap: 2rem;
+}
+
