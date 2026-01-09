@@ -1,9 +1,6 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-
-}
+*{margin: 0px;
+padding: 0px;
+box-sizing: border-box;}
 
 
 header {border: 3px black solid;
@@ -13,13 +10,49 @@ justify-content: space-between;
 align-items: baseline;
 width: 100% ;
 padding: 2.5rem;
-background-color:#120106;
-color: #fefcfc;
-}
+background-color:#000000;
+color: #fefcfc;}
+
+header a {color: #fefcfc;}
+
+nav a {text-decoration: none;}
 
 nav{display:flex;
 flex-wrap: wrap;
 align-items: center;
-gap: 2rem;
-}
+gap: 2.5rem;}
 
+.feature { border: 3px black solid;
+background-size: cover;
+height: 100vh;
+background-color: s#f3f9e2;
+position: relative;}
+
+.ds{background-image: url(https://images2.alphacoders.com/895/thumb-1920-895681.jpg);}
+
+.bb{background-image: url(https://images3.alphacoders.com/103/thumb-1920-1031859.jpg);}
+
+.er{background-image: url(https://4kwallpapers.com/images/walls/thumbs_3t/7712.jpg);}
+
+.cta-box{ border:#fefcfc 3px solid; 
+display: flex;
+left: 100px;
+position: absolute;
+bottom: 150px;
+color: #fefcfc;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 1rem;
+width: 350px;
+height: 100px;}
+
+button{background-color: #fefcfc;
+padding: 5px;
+border-radius: 10%;
+border: #fefcfc 3px solid;}
+
+footer{background-color: #120106;
+color: #fefcfc;
+display: flex;
+justify-content: center;}
