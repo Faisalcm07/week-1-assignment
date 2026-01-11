@@ -3,7 +3,10 @@ padding: 0px;
 box-sizing: border-box;}
 
 
-header {border: 3px black solid;
+header {font-family: Garamond, serif;
+position: fixed;
+z-index: 1;
+border: 3px black solid;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
@@ -11,6 +14,7 @@ align-items: baseline;
 width: 100% ;
 padding: 2.5rem;
 background-color:#000000;
+opacity: 0.8;
 color: #fefcfc;}
 
 header a {color: #fefcfc;}
@@ -34,7 +38,8 @@ position: relative;}
 
 .er{background-image: url(https://4kwallpapers.com/images/walls/thumbs_3t/7712.jpg);}
 
-.cta-box{ border:#fefcfc 3px solid; 
+.cta-box{ border:black 2px solid; 
+background-color:rgba(0, 0, 0, 0.3);
 display: flex;
 left: 100px;
 position: absolute;
@@ -52,7 +57,34 @@ padding: 5px;
 border-radius: 10%;
 border: #fefcfc 3px solid;}
 
+.cta-button:hover{background-color:aliceblue;
+opacity: 0.9;}
+
+
+button a {text-decoration: none;
+color: black;}
+
 footer{background-color: #120106;
 color: #fefcfc;
 display: flex;
 justify-content: center;}
+
+html{scroll-behavior: smooth;}
+
+.back-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-content: center;
+    background-color: unset;
+    border: none;
+    transition: 0.2s ease-out;
+    }
+
+.back-to-top a img { width: 30px;
+    height: 30px;}
+
+
